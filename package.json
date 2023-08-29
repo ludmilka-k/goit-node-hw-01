@@ -1,0 +1,24 @@
+{
+  "name": "goit-node-hw-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ludmilka-k/goit-node-hw-01.git"
+  },
+  "author": " <ludmilka.kurochkina@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ludmilka-k/goit-node-hw-01/issues"
+  },
+  "homepage": "https://github.com/ludmilka-k/goit-node-hw-01#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
