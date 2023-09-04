@@ -24,7 +24,6 @@ export const addContact = async ({name, email, phone}) => {
 };
 
 export const updateContactById = async ({id, name, email, phone}) => {
-    console.log({id, name, email, phone})
     const contacts = await getAllContacts();
     const index = contacts.findIndex(item => item.id === id);
     if (index === -1) {
